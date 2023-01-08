@@ -47,13 +47,13 @@ function WinningCombo()
             if(Spaces[a,b,c]=='X')
             {
                 CurrentPlayer=null;
-                Title.innerHTML ='🎉Hurray! Player 1 has won🥳';
+                Title.innerHTML ='🎉Hurray! X has won🥳';
             }
 
             if(Spaces[a,b,c]=='O')
             { 
                 CurrentPlayer=null;
-                Title.innerHTML ='🎉Hurray! Player 2 has won🥳';
+                Title.innerHTML ='🎉Hurray! O has won🥳';
             }
             
 
